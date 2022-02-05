@@ -1,0 +1,146 @@
+* {
+     padding: 0;
+     margin: 0;
+     background: rgb(9, 13, 44);
+}
+
+.tn-pading {
+     position: absolute;
+     left: 50%;
+     top: 120px;
+     transform: translate(-50%, -50%);
+}
+
+.tn-text-top {
+     letter-spacing: 3px;
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     width: 300px;
+     height: 20px;
+     color: white;
+}
+
+.tn-input-nb {
+     position: absolute;
+     top: 50px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+     width: 130px;
+     height: 30px;
+     color: white;
+     border: 2px solid rgb(0, 230, 255);
+     border-radius: 5px;
+
+}
+
+.tn-run-bt {
+     position: absolute;
+     width: 80px;
+     height: 30px;
+     text-align: center;
+     font-size: 13px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     top: 100px;
+     border: 2px solid rgb(0, 230, 255);
+     border-radius: 10px;
+     color: white;
+     letter-spacing: 1px;
+     background: rgba(141, 140, 140, 0.3);
+
+}
+
+.tn-run-bt:hover {
+     border: 2px solid rgb(255, 255, 255);
+     color: rgb(255, 0, 0);
+     border-radius: 10px;
+     font-size: 16px;
+     letter-spacing: 3px;
+     background: rgb(255, 255, 255);
+}
+
+.tn-output {
+     margin: 10px -150px;
+     padding: 5px 5px;
+     background: rgb(0, 230, 255);
+     color: white;
+     width: 300px;
+     position: absolute;
+     text-align: center;
+     left: -100%;
+     top: 130px;
+     letter-spacing: 1px;
+     border-radius: 5px;
+
+}
+
+.tn-bt-img {
+
+     position: absolute;
+     width: 200px;
+     height: 30px;
+     text-align: center;
+     font-size: 14px;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     top: 550px;
+     border: 2px solid rgb(255, 0, 0);
+     border-radius: 10px;
+     color: white;
+     letter-spacing: 1px;
+     background: rgba(0, 0, 0, 0.3);
+
+}
+
+.tn-bt-img:hover {
+     text-align: center;
+     border: 2px solid rgb(255, 255, 255);
+     color: rgb(255, 0, 0);
+     border-radius: 10px;
+     font-size: 16px;
+     letter-spacing: 2px;
+     background: rgb(255, 255, 255);
+}
+
+
+footer {
+
+     text-align: center;
+     padding: 20px;
+     color: rgb(255, 255, 255);
+}
+
+footer a1 {
+     color: #00ffff;
+}
+
+footer a1:hover {
+     color: rgb(255, 0, 136);
+}
+
+footer a2 {
+     color: #00ffff;
+}
+
+footer a2:hover {
+     color: rgb(193, 204, 204);
+}
+
+footer a3 {
+     color: #00ffff;
+}
+
+footer a3:hover {
+     color: rgb(70, 103, 251);
+}
+
+footer a4 {
+     color: #00ffff;
+}
+
+footer a4:hover {
+     color: rgb(217, 0, 255);
+}
